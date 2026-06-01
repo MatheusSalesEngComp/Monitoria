@@ -1,4 +1,3 @@
-package Monitoria.Material_de_Estudo.Avaliacoes.Simulado.Resolucao;
 
 import java.util.List;
 import java.util.ArrayList;

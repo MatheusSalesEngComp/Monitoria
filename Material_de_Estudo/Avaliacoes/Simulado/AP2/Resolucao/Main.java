@@ -1,6 +1,4 @@
-package Monitoria.Material_de_Estudo.Avaliacoes.Simulado.Resolucao;
 
-import Monitoria.Material_de_Estudo.Avaliacoes.Simulado.Resolucao.*;
 
 import java.util.List;
 

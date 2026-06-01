@@ -1,4 +1,3 @@
-package src.main.java.com.sistemadecursos.model;
 public class WorkshopPresencial extends Curso {
     private String local;
 

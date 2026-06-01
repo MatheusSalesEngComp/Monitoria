@@ -1,7 +1,4 @@
-package src.main.java.com.sistemadecursos;
 
-import src.main.java.com.sistemadecursos.model.*;
-import src.main.java.com.sistemadecursos.service.*;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.List;

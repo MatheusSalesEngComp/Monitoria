@@ -1,4 +1,3 @@
-package pacote;
 public class ConversorTemperatura {
     public static final Double KELVIN_OFFSET = 273.15;
     public static Double celsiusParaFahrenheit(double celsius){

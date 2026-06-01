@@ -1,4 +1,3 @@
-package Monitoria.Material_de_Estudo.Avaliacoes.Simulado.Resolucao;
 public class Aluno extends Pessoa{
     private Disciplina disciplina;
     private int matricula;

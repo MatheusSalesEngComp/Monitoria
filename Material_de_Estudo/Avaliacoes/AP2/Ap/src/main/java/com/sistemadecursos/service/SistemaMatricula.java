@@ -1,4 +1,3 @@
-package src.main.java.com.sistemadecursos.service;
 import java.util.Map;
 
 import src.main.java.com.sistemadecursos.exceptions.*;

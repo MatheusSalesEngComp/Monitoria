@@ -1,4 +1,3 @@
-package src.main.java.com.sistemadecursos.model;
 public abstract class Curso {
     private String titulo;
     private Double preco;

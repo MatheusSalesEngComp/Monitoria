@@ -1,4 +1,3 @@
-package pacote;
 
 public class Prova {
     private String nome;
