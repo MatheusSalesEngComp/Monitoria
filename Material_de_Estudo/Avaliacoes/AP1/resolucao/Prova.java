@@ -15,7 +15,7 @@ public class Prova {
 
     public String getNome(){
         return this.nome;
-    }   
+    } 
 
     public void setMatricula(int matricula){
         this.matricula = matricula;
