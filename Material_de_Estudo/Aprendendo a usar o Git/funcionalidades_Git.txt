@@ -53,4 +53,5 @@ $ git config --global user.email "seuemail@exemplo.com"
 * git branch -m novo-nome-da-branch: Renomeia a branch 
 * git push origin <nome-novo>: Atualiza no sistema remoto
 * git branch origin --delete <nome-da-branch>: deleta uma branch remota
+* git fetch: atualiza localmente as banch existentes no remoto
 
