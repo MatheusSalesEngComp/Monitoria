@@ -26,3 +26,22 @@ $ git config --global user.email "seuemail@exemplo.com"
 1. Faça commits pequenos e frequentes.
 2. Escreva mensagens de commit claras e descritivas.
 3. Use o arquivo .gitignore para evitar subir arquivos desnecessários (como pastas de ambiente virtual ou binários compilados).
+
+
+## 4. Trabalhando com Repositórios Remotos e Clonagem
+
+* git clone <URL>: Baixa um repositório completo do GitHub para o seu computador pela primeira vez.
+* git pull: Traz as atualizações do GitHub e as junta diretamente no seu código local (útil antes de começar a trabalhar).
+* git fetch: Baixa as novidades do GitHub, mas NÃO as junta ao seu código automaticamente (permite que você analise o que mudou primeiro).
+
+## 5. Histórico e Verificação
+
+* git log: Mostra o histórico completo de commits do projeto (com autor, data e a mensagem).
+* git log --oneline: Mostra o histórico de forma resumida, exibindo cada commit em apenas uma linha.
+* git diff: Mostra exatamente quais linhas de código foram alteradas nos arquivos antes de você fazer o commit.
+
+## 6. Desfazendo Coisas (Com Cuidado!)
+
+* git checkout -- <nome_do_arquivo>: Descarta as alterações feitas em um arquivo e o faz voltar ao estado do último commit.
+* git reset HEAD <nome_do_arquivo>: Tira um arquivo da área de preparação (Staging Area), mas mantém as alterações no código.
+* git revert <código_do_commit>: Cria um novo commit que faz exatamente o inverso de um commit antigo, desfazendo o erro sem apagar o histórico.
