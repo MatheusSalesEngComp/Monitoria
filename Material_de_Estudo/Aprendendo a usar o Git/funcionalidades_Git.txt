@@ -47,10 +47,10 @@ $ git config --global user.email "seuemail@exemplo.com"
 * git revert <código_do_commit>: Cria um novo commit que faz exatamente o inverso de um commit antigo, desfazendo o erro sem apagar o histórico.
 * git restore <nome_do_arquivo>: Desfaz as alterações para restaurar o último commit
 
-## 7. Criando-Atualizando Branch
+## 7. Criando-Atualizando-Deletando Branch
 
 * git checkout -b <nome-da-nova-branch>
 * git branch -m novo-nome-da-branch: Renomeia a branch 
-* git push origin <nome-antigo>: Atualiza no sistema em nuvem
-* git push origin -u <nome-novo>
+* git push origin <nome-novo>: Atualiza no sistema remoto
+* git branch origin --delete <nome-da-branch>: deleta uma branch remota
 
