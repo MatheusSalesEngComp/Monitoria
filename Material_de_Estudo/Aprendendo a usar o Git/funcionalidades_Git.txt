@@ -1,0 +1,57 @@
+# Guia Rápido de Git e GitHub
+
+O Git é um sistema de controle de versão distribuído, usado para acompanhar o histórico de alterações no código-fonte durante o desenvolvimento de software.
+
+## 1. Instalação e Configuração Inicial
+
+No Linux (Ubuntu/Debian):
+$ sudo apt update
+$ sudo apt install git
+
+Configurar identidade (Local ou Global):
+$ git config --global user.name "Seu Nome"
+$ git config --global user.email "seuemail@exemplo.com"
+
+## 2. Principais Comandos do Dia a Dia
+
+* git init: Inicializa um repositório Git local na pasta atual.
+* git status: Verifica o estado dos arquivos (quais foram modificados, salvos ou não).
+* git add .: Adiciona todas as modificações da pasta atual para a área de preparação (Staging Area).
+* git commit -m "Mensagem": Salva o ponto na linha do tempo com uma mensagem explicativa.
+* git branch -M main: Renomeia o ramo principal para 'main'.
+* git remote add origin <URL>: Conecta o repositório local ao repositório remoto no GitHub.
+* git push -u origin main: Envia os arquivos locais para o GitHub pela primeira vez.
+
+## 3. Boas Práticas
+1. Faça commits pequenos e frequentes.
+2. Escreva mensagens de commit claras e descritivas.
+3. Use o arquivo .gitignore para evitar subir arquivos desnecessários (como pastas de ambiente virtual ou binários compilados).
+
+
+## 4. Trabalhando com Repositórios Remotos e Clonagem
+
+* git clone <URL>: Baixa um repositório completo do GitHub para o seu computador pela primeira vez.
+* git pull: Traz as atualizações do GitHub e as junta diretamente no seu código local (útil antes de começar a trabalhar).
+* git fetch: Baixa as novidades do GitHub, mas NÃO as junta ao seu código automaticamente (permite que você analise o que mudou primeiro).
+
+## 5. Histórico e Verificação
+
+* git log: Mostra o histórico completo de commits do projeto (com autor, data e a mensagem).
+* git log --oneline: Mostra o histórico de forma resumida, exibindo cada commit em apenas uma linha.
+* git diff: Mostra exatamente quais linhas de código foram alteradas nos arquivos antes de você fazer o commit.
+
+## 6. Desfazendo Coisas (Com Cuidado!)
+
+* git checkout -- <nome_do_arquivo>: Descarta as alterações feitas em um arquivo e o faz voltar ao estado do último commit.
+* git reset HEAD <nome_do_arquivo>: Tira um arquivo da área de preparação (Staging Area), mas mantém as alterações no código.
+* git revert <código_do_commit>: Cria um novo commit que faz exatamente o inverso de um commit antigo, desfazendo o erro sem apagar o histórico.
+* git restore <nome_do_arquivo>: Desfaz as alterações para restaurar o último commit
+
+## 7. Criando-Atualizando-Deletando Branch
+
+* git checkout -b <nome-da-nova-branch>
+* git branch -m novo-nome-da-branch: Renomeia a branch 
+* git push origin <nome-novo>: Atualiza no sistema remoto
+* git branch origin --delete <nome-da-branch>: deleta uma branch remota
+* git fetch: atualiza localmente as banch existentes no remoto
+
