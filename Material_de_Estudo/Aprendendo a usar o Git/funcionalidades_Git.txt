@@ -45,3 +45,5 @@ $ git config --global user.email "seuemail@exemplo.com"
 * git checkout -- <nome_do_arquivo>: Descarta as alterações feitas em um arquivo e o faz voltar ao estado do último commit.
 * git reset HEAD <nome_do_arquivo>: Tira um arquivo da área de preparação (Staging Area), mas mantém as alterações no código.
 * git revert <código_do_commit>: Cria um novo commit que faz exatamente o inverso de um commit antigo, desfazendo o erro sem apagar o histórico.
+
+
