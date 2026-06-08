@@ -51,7 +51,7 @@ $ git config --global user.email "seuemail@exemplo.com"
 
 * git checkout -b <nome-da-nova-branch>		# cria uma brnach
 * git branch -d nova-branch			# deleta uma branch local
-
+* git push origin --delete nova-branch		# deleta uma branch remoto
 * git branch -m novo-nome-da-branch		# Renomeia a branch 
 * git push origin <nome-novo>			# Atualiza no sistema remoto
 * git branch origin --delete <nome-da-branch>	# deleta uma branch remota
