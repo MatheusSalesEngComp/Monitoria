@@ -49,9 +49,34 @@ $ git config --global user.email "seuemail@exemplo.com"
 
 ## 7. Criando-Atualizando-Deletando Branch
 
-* git checkout -b <nome-da-nova-branch>
-* git branch -m novo-nome-da-branch: Renomeia a branch 
-* git push origin <nome-novo>: Atualiza no sistema remoto
-* git branch origin --delete <nome-da-branch>: deleta uma branch remota
-* git fetch: atualiza localmente as banch existentes no remoto
+* git checkout -b <nome-da-nova-branch>		# cria uma brnach
+* git branch -d nova-branch			# deleta uma branch local
 
+* git branch -m novo-nome-da-branch		# Renomeia a branch 
+* git push origin <nome-novo>			# Atualiza no sistema remoto
+* git branch origin --delete <nome-da-branch>	# deleta uma branch remota
+* git fetch					# atualiza localmente as banch existentes no remoto
+
+
+## 8. Guardar as alterações temporariamente e limpa a área de trabalho.
+
+* git stash          # Guarda o trabalho incompleto
+* git checkout main  # Vai para a outra branch resolver o bug
+# ... resolve o bug ...
+* git checkout -     # Volta para a branch anterior
+* git stash pop      # Recupera o trabalho de onde você parou
+
+## 9. Trazer apenas um commit de uma Branch
+
+* git cherry-pick <hash-do-commit>
+
+
+## 10. Arquivos que deseja apagar todos de uma vez
+
+* git clean -df  # O 'd' remove pastas e o 'f' força a exclusão 
+
+## 11. Juntando as alterações em uma branch
+
+* git checkout main 		#deve ir para a branch que desejar adicionar as alterações
+* git pull origin main		#atualiza a branch local
+* git merge minha-nova-feature	#junta a branch minha-nova-feature a branch main
