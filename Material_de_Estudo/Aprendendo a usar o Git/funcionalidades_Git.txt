@@ -80,3 +80,6 @@ $ git config --global user.email "seuemail@exemplo.com"
 * git checkout main 		#deve ir para a branch que desejar adicionar as alterações
 * git pull origin main		#atualiza a branch local
 * git merge minha-nova-feature	#junta a branch minha-nova-feature a branch main
+
+
+nova-branch
